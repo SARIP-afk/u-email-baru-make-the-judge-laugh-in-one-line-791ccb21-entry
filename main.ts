@@ -9,7 +9,11 @@
 // the judge brief: a mini-story in two beats (praised the waiter, then
 // ordered a pizza at home) closed by a redefinition — politeness as lying
 // with a tip. Runner-up was the dead phone ("thoughts I had not had since
-// 2007"). Full comparison:
+// 2007"). Verified locally exactly as the server runs it
+// (MAKEFUN_OUTPUT_DIR=out node main.ts): three runs, byte-identical,
+// entry.txt 118 characters / 118 bytes, sha256
+// 29d7ee7511f93a9a00520694fdd9cb0db9cc9f8c0b5f679f137c876ac0ce19d6.
+// Full comparison:
 // u-email-baru-make-the-judge-laugh-in-one-line-791ccb21-candidates.md.
 
 import { mkdirSync, writeFileSync } from "node:fs";
